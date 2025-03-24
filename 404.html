@@ -3,8 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <script>
-      // Redirige vers index.html avec le bon chemin
-      location.replace('/coeurcoeur' + location.pathname);
+      const path = location.pathname.replace('/coeurcoeur', '');
+      const newUrl = '/coeurcoeur/index.html' + (path || '');
+      location.replace(newUrl);
     </script>
   </head>
   <body></body>
