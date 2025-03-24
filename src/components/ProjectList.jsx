@@ -4,6 +4,13 @@ import projectsData from "../../data-project.json"
 
 import '../assets/styles/ProjectList.scss'
 
+import booki from '../assets/Booki.png'
+import kasa from '../assets/Kasa.png'
+
+const imageMap = {
+  "Booki.png": booki,
+  "Kasa.png": kasa
+}
 
 function ProjectList() {
     const [projects, setProjects] = useState([])
@@ -13,9 +20,10 @@ function ProjectList() {
   
     return (
       <div className="project-list">
-        {projects.map((project) => (
+        {projects.map((project, index) => (
           <Project
-            image={project.image}
+            key={index}
+            image={imageMap[project.image]}
             title={project.title}
             text={project.text}
             link={project.link}

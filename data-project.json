@@ -1,14 +1,14 @@
 [
     {
       "id": "1",
-      "image": "./src/assets/Booki.png",
+      "image": "Booki.png",
       "title": "HTML / CSS",
       "text": "Intégration de la page d'accueil d'une agence de voyage.",
       "link": "https://emyneauport.github.io/Booki/"
     },
     {
       "id": "2",
-      "image": "./src/assets/Kasa.png",
+      "image": "Kasa.png",
       "title": "JavaScript / REACT",
       "text": "Refonte du site web d'une agence immobilière.",
       "link": "https://emyneauport.github.io/Kasa"
