@@ -1,0 +1,21 @@
+@use '../styles/variables.scss' as*;
+
+.header {
+    padding: 30px 100px 0px 100px;
+    p {
+        font-size: 24px;
+    }
+    .header_content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        @media only screen and (max-width : 550px) {
+            flex-direction: column;
+        }
+    }
+    .header_separator {
+        height: 1.1px;
+        background-color: $main-color;
+        border: none;
+    }
+}

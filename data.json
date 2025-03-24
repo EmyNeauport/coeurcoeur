@@ -1,0 +1,20 @@
+[
+    {
+      "id": "1",
+      "image": "/src/assets/gestionprojet.jpg",
+      "title": "GESTION DE PROJET",
+      "text": "Piloter vos projets digitaux de manière structurée et sereine : cadrage, planification, coordination des parties prenantes et suivi jusqu’à la mise en production."
+    },
+    {
+      "id": "2",
+      "image": "/src/assets/amoa.jpg",
+      "title": "AMOA",
+      "text": "Faire le lien entre vos besoins métier et les réalisations techniques en traduisant vos objectifs en solutions concrètes, avec une approche méthodique et orientée utilisateur."
+    },
+    {
+      "id": "3",
+      "image": "/src/assets/dev.jpg",
+      "title": "DEVELOPPEMENT WEB",
+      "text": "Concevoir des sites web modernes, responsives et sur mesure, en m’appuyant sur des technologies comme HTML, CSS, JavaScript et React."
+    }
+]

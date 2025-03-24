@@ -1,0 +1,14 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    
+    .home_separator {
+        display: flex;
+        justify-content: center;
+        padding: 0 100px 0 100px;
+        @media only screen and (max-width : 500px) {
+            display: none;
+        }
+    }
+}

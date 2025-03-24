@@ -1,0 +1,11 @@
+.project-list {
+    padding: 30px 100px 60px 100px;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    @media only screen and (max-width : 750px) {
+        flex-direction: column;
+        padding: 0 60px 60px 60px;
+        align-items: center;
+    }
+}
