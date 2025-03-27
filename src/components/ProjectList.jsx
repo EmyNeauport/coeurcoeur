@@ -24,6 +24,7 @@ function ProjectList() {
           <Project
             key={index}
             image={imageMap[project.image]}
+            alt={project.alt}
             title={project.title}
             text={project.text}
             link={project.link}

@@ -8,7 +8,7 @@ function Intro() {
         <div className='intro'>
             <div className='intro_content'>
                 <div className='intro_catchphrase'>
-                    <h1>Des sites web fait avec le coeur.</h1>
+                    <h1>Des sites web faits avec le coeur.</h1>
                 </div>
                 <div className='intro_secondary'>
                     <div className='intro_mascot'>

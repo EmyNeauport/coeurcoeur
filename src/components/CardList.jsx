@@ -24,7 +24,8 @@ function CardList() {
         {cards.map((card, index) => (
            <Card
            key={index}
-           image={imageMap[card.image]} // 🔁 image résolue via la map
+           image={imageMap[card.image]}
+           alt={card.alt}
            title={card.title}
            text={card.text}
          />

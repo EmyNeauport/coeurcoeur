@@ -1,10 +1,10 @@
 import '../assets/styles/Project.scss'
 
-function Project({image, title, text, link}) {
+function Project({image, alt, title, text, link}) {
     return(
         <div className='project'>
             <div className='project-img'>
-                <img src={image} />
+                <img src={image} alt={alt}/>
             </div>
             <h2>{title}</h2>
             <p>{text}</p>
