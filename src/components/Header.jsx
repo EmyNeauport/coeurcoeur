@@ -11,10 +11,13 @@ function Header() {
                         <img src={logoHeader} alt="logo coeurcoeur" />
                 </Link>
             </div>
-            <nav>
+            <nav className="header_content-nav">
                 <Link to="/portfolio">
                     <p>Portfolio</p>
                 </Link>
+                <a href="mailto:neauportemilie@gmail.com?subject=Demande%20de%20contact" class="contact-button">
+                    Contact
+                </a>
             </nav>
         </div>
         <hr className="header_separator"/>

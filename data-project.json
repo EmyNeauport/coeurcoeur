@@ -4,16 +4,35 @@
       "image": "Booki.png",
       "alt": "illustration projet Booki",
       "title": "HTML / CSS",
-      "text": "Intégration de la page d'accueil d'une agence de voyage.",
-      "link": "https://emyneauport.github.io/Booki/"
+      "text": "Intégrer la page d'accueil d'une agence de voyage",
+      "link": "https://emyneauport.github.io/Booki/",
+      "brief": [
+        "Développer un site Internet permettant aux usagers de trouver des hébergements et des activités dans la ville de leur choix"
+      ],
+      "mission": [
+        "Intégrer l'interface en HTML et CSS",
+        "Respecter les maquettes du designer",
+        "Gérer les différentes tailles d'écran",
+        "Versionner et déployer sur GitHub"
+      ]
     },
     {
       "id": "2",
       "image": "Kasa.png",
       "alt": "illustration projet Kasa",
       "title": "JavaScript / REACT",
-      "text": "Refonte du site web d'une agence immobilière.",
-      "link": "https://emyneauport.github.io/Kasa"
-    }
-    
+      "text": "Refondre le site web d'une entreprise de location d'appartements entre particuliers",
+      "link": "https://emyneauport.github.io/Kasa",
+      "brief": [
+        "Refondre le front-end et le design du site",
+        "Refondre le design du site"
+      ],
+      "mission": [
+        "Mettre en place des composants réutilisables",
+        "Gérer les différentes pages de l'application",
+        "Intégrer les données d'un fichier JSON",
+        "Gérer les différentes tailles d'écran",
+        "Versionner et déployer sur GitHub"
+      ]
+    } 
 ]

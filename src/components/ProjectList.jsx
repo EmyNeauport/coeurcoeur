@@ -27,6 +27,8 @@ function ProjectList() {
             alt={project.alt}
             title={project.title}
             text={project.text}
+            brief={project.brief}
+            mission={project.mission}
             link={project.link}
           />
         ))}

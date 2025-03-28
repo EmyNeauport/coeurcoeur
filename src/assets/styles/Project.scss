@@ -8,7 +8,6 @@
     display: flex;
     flex-direction: column;
     gap: 15px;
-    justify-content: space-between;
     @media only screen and (max-width : 750px) {
         width: 80%;
     }
@@ -22,6 +21,28 @@
             display: block;
           }
     }
+    .detail {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        gap: 20px;
+        .project-brief {
+            display: flex;
+            flex-direction: column;
+            p {
+                font-weight: bold;
+                margin-bottom: 5px;
+            }
+        }
+        .project-mission {
+            display: flex;
+            flex-direction: column;
+            p {
+                font-weight: bold;
+                margin-bottom: 5px;
+            }
+        }
+    }
     p {
         margin: 0;
     }
@@ -31,5 +52,6 @@
     a {
         align-self: flex-end;
         font-size: 20px;
+        margin-top: auto;
     }
 }
