@@ -24,7 +24,7 @@
       "text": "Refondre le site web d'une entreprise de location d'appartements entre particuliers",
       "link": "https://emyneauport.github.io/Kasa",
       "brief": [
-        "Refondre le front-end et le design du site",
+        "Refondre le front-end du site avec React",
         "Refondre le design du site"
       ],
       "mission": [
