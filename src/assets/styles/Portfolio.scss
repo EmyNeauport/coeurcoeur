@@ -5,7 +5,7 @@
     flex-wrap: nowrap;
     justify-content: flex-start;
     max-width: 1000px;
-    @media only screen and (max-width : 500px) {
+    @media only screen and (max-width : 767px) {
         padding: 30px 60px 30px 60px;
     }
     .portfolio-txt {
@@ -17,12 +17,12 @@
         p {
             margin-top: 0;
         }
-        @media only screen and (max-width : 750px) {
+        @media only screen and (max-width : 767px) {
             width: 100%;
         }
     }
     img {
-        @media only screen and (max-width : 750px) {
+        @media only screen and (max-width : 767px) {
             display: none;
         }
     }

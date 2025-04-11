@@ -2,6 +2,9 @@
 
 .header {
     padding: 30px 100px 0px 100px;
+    @media only screen and (max-width : 767px) {
+        padding: 30px 60px 0 60px;
+    }
     p {
         font-size: 24px;
     }
@@ -9,7 +12,7 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        @media only screen and (max-width : 550px) {
+        @media only screen and (max-width : 767px) {
             flex-direction: column;
         }
         .header_content-nav{

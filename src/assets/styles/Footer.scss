@@ -3,19 +3,20 @@
     justify-content: space-between;
     align-items: center;
     padding: 0 100px 30px 100px;
-    @media only screen and (max-width : 500px) {
+    @media only screen and (max-width : 767px) {
         padding: 0 60px 60px 60px;
-      }
+        justify-content: center;
+    }
     img {
-        @media only screen and (max-width : 750px) {
+        @media only screen and (max-width : 767px) {
             display: none;
         }
     }
     .footer_link{
         display: flex;
         gap: 100px;
-        @media only screen and (max-width : 500px) {
+        @media only screen and (max-width : 767px) {
             gap: 30px;
-          }
+        }
     }
 }

@@ -5,7 +5,7 @@ function Skills() {
         <div className="skills">
             <h2>Compétences</h2>
             <hr className='separator'/>
-            <div className='test'>
+            <div className='skills_container'>
                 <div className='skills_items'>
                     <h3 className='skills_item'>HTML/CSS</h3>
                     <h3 className='skills_item'>JAVASCRIPT/REACT</h3>
